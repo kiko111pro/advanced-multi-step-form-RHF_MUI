@@ -12,7 +12,7 @@ import Profile from "./Steps/Profile/Profile";
 function Form() {
   //   const mobile = useMediaQuery("(max-width: 600px)");
 
-  const [activeStep, setActiveStep] = useState(2);
+  const [activeStep, setActiveStep] = useState(1);
 
   const CURRENT_STEP = (val) => {
     switch (val) {

@@ -8,7 +8,7 @@ function App() {
       <Grid item container sx={{ mb: 1 }}>
         <Header />
       </Grid>
-      <Grid item sx={{ bgcolor: "aqua" }}>
+      <Grid item>
         <Form />
       </Grid>
     </Grid>
