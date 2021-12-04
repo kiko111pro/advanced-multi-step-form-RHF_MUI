@@ -33,7 +33,7 @@ function Form() {
 
   return (
     <Grid container p={2} rowSpacing={4} alignItems="center">
-      <Grid item xs={12} md={3}>
+      <Grid item container alignItems="center" xs={12} md={3}>
         <Stepper activeStep={activeStep - 1} />
       </Grid>
       <Grid item md={9} xs={12}>
